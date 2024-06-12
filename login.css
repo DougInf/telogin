@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens/111.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 56%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    backdrop-filter: blur(15px);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 3px 5px #0ab7e2d2;
+    border-radius: 180%;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.input-container{
+    padding: 30px;
+    width: 180px;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 65%;
+    margin: 0 auto 20px;
+    margin-top: 35px;
+    border-radius: #0ab7e2d2;
+    background-image: url('imagens/place.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.user-image:hover {
+    box-shadow: 3px 3px 3px #0ab7e2d2;
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(211, 32, 187);
+    border-radius: 20px;
+    cursor: pointer;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.custom-button:hover {
+    background-color: #0099ff;
+}
+
+input {
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    margin: 10px;
+}
+
